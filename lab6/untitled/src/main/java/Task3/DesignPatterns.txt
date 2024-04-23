@@ -1,0 +1,2 @@
+Am folosit Strategy Pattern ca sa gestionez diferitele metode de plata disponibile in magazin. Asa am definit o serie de strategii distincte pentru plati si le-am incapsulat pe fieccare intr-o clasa separata.
+Am utilizat Strategy prin interfata Plata pe care am implementat o fiecarui tip de plata disponibila, cum ar fi plata in numerar, plata prin transfer bancar sau cu cardul.

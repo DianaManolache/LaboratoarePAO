@@ -1,0 +1,2 @@
+Am folosit Strategy ca Design Pattern pentru ca pot defini cele 3 tupuri de sortare diferite si pot incapsula fiecare algoritm intr-o clasa separata. In felul acesta pot sa schimb tipul de sortare in timpul rularii programului fara sa modific clasa Main si pot sa adaug si noi algoritmi de sortare sau altele in viitor fara sa afecteze codul care exista deja.
+Am utilizat Strategy folosind interfata SortareStrategy pe care am implementat-o celor 3 clase cu sortari (ex. class SortareDupaNotaMedie implements SortareStrategy).

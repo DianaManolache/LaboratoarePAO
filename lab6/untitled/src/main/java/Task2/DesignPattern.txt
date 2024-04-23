@@ -1,0 +1,6 @@
+Am folosit Observer si Factory.
+Observer am folosit ca sa pot gestiona abonarea si notificare utilizatorilor la subiectele diferite. Cand un utiilizator trimmite un mesaj pe un subiect, toti abonatii primesc notificare si mesaj (nu si cel ce a trimis). De exemplu, abonasem doar pe diana la noul subiect temaDeLaborator si atat si nu mi afisa mesajul si nu intelegeam de ce. M-am prins dupa ca trebuiia sa-l abonez pe Ion.
+L-am folosit practic prin interfata Subiect ce este implementata de SubiectChat. Clasa Utilizator actioneaza ca Observator, se aboneaza la subiecte si primeste notificari cand sunt trimise mesaje pe subiectele respective.\
+
+Factory Pattern am folosit pentru a nu specifica clasa exacta a fiecarui subiect atunci cand il facem. Asa putem sa adaugam tipuri de subiecte noi fara a modifica codul.
+L-am folosit practic in clasa CreeazaSubiect care contine o metoda statica ce creeaza si returneaza instante de subiecte, ascunzand detaliile acestora.

@@ -1,0 +1,1 @@
+Command am folosit ca sa separam cererea de obiectul care o proceseaza prin interfata Comanda, pe care am implementat o la toate clasele ce reprezinta operatii (adaugare student, materie, student la materie etc.).
