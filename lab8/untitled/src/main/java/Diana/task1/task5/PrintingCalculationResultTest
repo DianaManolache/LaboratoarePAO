@@ -1,0 +1,21 @@
+package Diana.task1.task5;
+import static org.junit.jupiter.api.Assertions.*;
+
+import Diana.task1.CalculationRequest;
+import Diana.task1.calculatorResult.CalculationResult;
+import Diana.task1.calculatorResult.IntegerCalculationResult;
+import Diana.task1.calculatorResult.PrintingCalculationResult;
+import org.junit.jupiter.api.Test;
+public class PrintingCalculationResultTest {
+
+    @Test
+    void testComputeResult_Printing_Positive() {
+        CalculationRequest request = new CalculationRequest(5, 3, "+");
+        CalculationResult calculationResult = new IntegerCalculationResult(request);
+        PrintingCalculationResult result = new PrintingCalculationResult(calculationResult);
+        
+        Object computedResult = result.computeResult();
+
+        assertEquals(8, (Integer) computedResult, "Computed result should be 8.");
+    }
+}
