@@ -1,0 +1,16 @@
+NumCount: 10, Duration: 4 ms
+NumCount: 1000, Duration: 1 ms
+NumCount: 10000, Duration: 2 ms
+NumCount: 10000000, Duration: 306 ms
+NumCount: 10, Duration: 5 ms
+NumCount: 1000, Duration: 6 ms
+NumCount: 10000, Duration: 9 ms
+NumCount: 10000000, Duration: 323 ms
+NumCount: 10, Duration: 5 ms
+NumCount: 1000, Duration: 1 ms
+NumCount: 10000, Duration: 1 ms
+NumCount: 10000000, Duration: 303 ms
+NumCount: 10, Duration: 5 ms
+NumCount: 1000, Duration: 94 ms
+NumCount: 10000, Duration: 1 ms
+NumCount: 10000000, Duration: 324 ms
